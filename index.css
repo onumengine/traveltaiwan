@@ -243,6 +243,24 @@ button {
     left: 30px;
 }
 
+#socialIcons {
+    height: 50px;
+    margin-top: 20px;
+    padding: auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#socialIcons img {
+    height: 30px;
+    margin-right: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px #E5E7EB;
+}
+
 .subheading {
     color: aqua;
 }
