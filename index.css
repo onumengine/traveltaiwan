@@ -93,6 +93,17 @@ button {
     width: 60%;
 }
 
+#contactImage img {
+    max-width: 100%;
+}
+
+#contactSection {
+    padding: 20px;
+    text-align: start;
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
 #exploreButton {
     background-color: blue;
     color: white;
