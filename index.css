@@ -85,6 +85,14 @@ button {
     font-weight: inherit;
 }
 
+.contactColumn {
+    width: 50%;
+}
+
+#contactImage {
+    width: 60%;
+}
+
 #exploreButton {
     background-color: blue;
     color: white;
