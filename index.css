@@ -196,6 +196,26 @@ button {
     margin: 100px 0px;
 }
 
+.touristAttractionImage {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+#touristGreenLakeImage {
+    background-image: url('images/greenlake.jpg');
+}
+
+#touristLandscapeImage {
+    background-image: url('images/rockylandscape.jpg');
+}
+
+#touristTookieImage {
+    background-image: url('images/tookie.jpg');
+}
+
 .verticallyPaddedParagraph {
     padding: 40px 30%;
 }
