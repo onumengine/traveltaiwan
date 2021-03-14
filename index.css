@@ -2,8 +2,46 @@
     box-sizing: border-box;
 }
 
+#appbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0px;
+}
+
+.appbarActions {
+    list-style-type: none;
+}
+
+.appbarAction {
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.appbarLink {
+    text-decoration: none;
+}
+
+.appbarLink :after {
+    text-decoration: underline;
+}
+
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    line-height: 2;
+}
+
+.brandText {
+    color: aqua;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.brandText span {
+    color: blue;
 }
 
 div {
