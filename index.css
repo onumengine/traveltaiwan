@@ -106,6 +106,10 @@ body {
     color: white;
 }
 
+#flatButton2 {
+    background-color: blue;
+}
+
 .flatButtonFrame {
     border: none;
     color: white;
@@ -153,10 +157,14 @@ body {
 
 #religiousButtonFrame {
     background-color: blue;
+    bottom: 80px;
+    left: 30px;
 }
 
 #traditionalButtonFrame {
-    background-color: aqua;
+    background-color: cadetblue;
+    top: 80px;
+    right: 30px;
 }
 
 .subheading {
