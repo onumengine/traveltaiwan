@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-#cuisine * {
+#accommodation * {
     border-style: solid;
     border-width: 1px;
     border-color: red;
@@ -113,12 +113,14 @@ body {
 
 .raisedBox {
     box-shadow: 0 0 4px 4px #E5E7EB;
+    padding: 10px;
 }
 
 .row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 40px 0;
 }
 
 .subheading {
