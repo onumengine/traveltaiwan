@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-#accommodation * {
+#cuisine * {
     border-style: solid;
     border-width: 1px;
     border-color: red;
@@ -110,6 +110,7 @@ body {
     border: none;
     color: white;
     position: absolute;
+    padding: 4px 40px 20px 40px;
 }
 
 #introDiv {
@@ -152,6 +153,10 @@ body {
 
 #religiousButtonFrame {
     background-color: blue;
+}
+
+#traditionalButtonFrame {
+    background-color: aqua;
 }
 
 .subheading {
