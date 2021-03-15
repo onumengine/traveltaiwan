@@ -85,6 +85,33 @@ body {
     border-radius: 2px;
 }
 
+.festivalImage {
+    width: 450px;
+    height: 400px;
+    margin: 0 100px;
+    background-image: url('images/brownwindmill.jpg');
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.7);
+    border-radius: 2px;
+}
+
+.flatButton {
+    background-color: cadetblue;
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+.flatButtonFrame {
+    border: none;
+    color: white;
+    position: absolute;
+}
+
 #introDiv {
     width: 100%;
     margin: 0px auto;
@@ -123,6 +150,10 @@ body {
     padding: 40px 0;
 }
 
+#religiousButtonFrame {
+    background-color: blue;
+}
+
 .subheading {
     color: aqua;
 }
@@ -133,6 +164,10 @@ body {
 
 .verticallyPaddedParagraph {
     padding: 40px;
+}
+
+.windmillImageBox {
+    position: relative;
 }
 
 #wushengTempleDiv {
