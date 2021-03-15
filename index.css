@@ -78,6 +78,13 @@ body {
     color: blue;
 }
 
+button {
+    border-style: solid;
+    border-width: 1px;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
 #exploreButton {
     background-color: blue;
     color: white;
@@ -151,6 +158,14 @@ body {
     box-shadow: 0 0 4px 4px #E5E7EB;
     padding: 10px;
     border-radius: 2px;
+}
+
+.roundedButton {
+    border-radius: 50px;
+    font-size: 0.7em;
+    border: none;
+    background-color: deepskyblue;
+    padding: 12px 20px;
 }
 
 .row {
