@@ -111,6 +111,18 @@ body {
     margin: 60px 0;
 }
 
+.subheading {
+    color: aqua;
+}
+
+.subsection {
+    padding: 100px 0px;
+}
+
+.verticallyPaddedParagraph {
+    padding: 40px ;
+}
+
 #wushengTempleDiv {
     color: white;
     position: absolute;
