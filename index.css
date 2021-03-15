@@ -42,13 +42,14 @@ nothing * {
 #banner {
     position: relative;
     height: 800px;
-    box-shadow: 0 0 4px 4px #E5E7EB;
 }
 
 #bannerBG {
     height: 800px;
     background-image: url('images/hotellake.jpg');
     filter: brightness(0.5);
+    box-shadow: 0 0 2px 2px #E5E7EB;
+    border-radius: 2px;
 }
 
 #bannerImage {
@@ -64,6 +65,7 @@ body {
     font-weight: bold;
     line-height: 2;
     text-align: center;
+    background-color: #F3F4F6;
 }
 
 .brandText {
