@@ -111,6 +111,14 @@ body {
     margin: 60px 0;
 }
 
+.paddedRow {
+    margin: 0 100px;
+}
+
+.raisedBox {
+    box-shadow: 0 0 4px 4px #E5E7EB;
+}
+
 .row {
     display: flex;
     flex-direction: row;
