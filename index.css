@@ -335,3 +335,5 @@ button {
     right: 20px;
     font-weight: bold;
 }
+
+@media(max-device-width: 592px) {}
