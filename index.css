@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-#touristAttractions * {
+#nun * {
     border-style: solid;
     border-width: 1px;
     border-color: red;
@@ -395,6 +395,13 @@ hr {
         font-weight: normal;
     }
 
+    .forwardButton {
+        width: 200px;
+        height: 200px;
+        right: 30px;
+        bottom: 30px;
+    }
+
     .hotelName {
         margin-top: 20px;
     }
@@ -452,6 +459,12 @@ hr {
         padding-left: 40px;
         padding-right: 40px;
         text-align: left;
+    }
+
+    .touristAttractionCard {
+        margin-top: 100px;
+        border-bottom-style: solid;
+        border-width: 1px;
     }
 
     .touristAttractionCard p {
