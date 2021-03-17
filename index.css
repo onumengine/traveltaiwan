@@ -65,7 +65,7 @@ body {
     font-weight: bold;
     line-height: 2;
     text-align: center;
-    background-color: #F3F4F6;
+    background-color: #E5E7EB;
 }
 
 .brandText {
@@ -236,7 +236,7 @@ button {
 }
 
 .raisedBox {
-    box-shadow: 0 0 4px 4px #E5E7EB;
+    box-shadow: 0 0 4px 4px #D1D5DB;
     padding: 10px;
     border-radius: 2px;
 }
@@ -286,7 +286,7 @@ button {
 }
 
 .subheading {
-    color: aqua;
+    color: cadetblue;
 }
 
 .subsection {
