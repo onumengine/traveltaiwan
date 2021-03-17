@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-#banner * {
+#cuisine * {
     border-style: solid;
     border-width: 1px;
     border-color: red;
@@ -20,6 +20,7 @@
 
 .appbarActions {
     list-style-type: none;
+    transition: width 0.5s;
 }
 
 .appbarAction {
@@ -352,20 +353,45 @@ button {
         left: 0;
         top: 0;
         background-color: black;
-        width: 100%;
+        width: 0%;
         height: 100%;
         display: none;
+        z-index: 1;
     }
 
-    #banner {
-        height: 100%;
+    body {
+        text-align: start;
     }
 
     #menuButton {
         display: inline;
     }
 
+    .paddedRow {
+        margin: 0;
+    }
+
+    .subsection {
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: left;
+    }
+
+    .verticallyPaddedParagraph {
+        padding: 40px 0;
+    }
+
+    .raisedBox {
+        margin: 40px 0;
+    }
+
+    .raisedBox img {
+        width: 100%;
+        height: auto;
+    }
+
     .row {
         flex-direction: column;
     }
+
 }
