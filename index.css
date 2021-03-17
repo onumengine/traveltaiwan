@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-#cuisine * {
+#nun * {
     border-style: solid;
     border-width: 1px;
     border-color: red;
@@ -371,6 +371,26 @@ button {
         margin: 0;
     }
 
+    .raisedBox {
+        margin: 40px 0;
+        padding-bottom: 16px;
+        padding-top: 40px;
+    }
+
+    .raisedBox img {
+        width: 100%;
+        height: auto;
+    }
+
+    .raisedBox p {
+        font-size: 3em;
+        font-weight: normal;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
     .subsection {
         padding-left: 40px;
         padding-right: 40px;
@@ -379,19 +399,8 @@ button {
 
     .verticallyPaddedParagraph {
         padding: 40px 0;
-    }
-
-    .raisedBox {
-        margin: 40px 0;
-    }
-
-    .raisedBox img {
-        width: 100%;
-        height: auto;
-    }
-
-    .row {
-        flex-direction: column;
+        font-weight: normal;
+        font-size: 2em;
     }
 
 }
