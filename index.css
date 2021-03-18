@@ -461,7 +461,7 @@ hr {
     }
 
     #menuButton {
-        display: inline;
+        display: inline-block;
     }
 
     .paddedRow {
