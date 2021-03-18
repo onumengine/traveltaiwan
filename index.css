@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-#nun * {
+#contactDiv * {
     border-style: solid;
     border-width: 1px;
     border-color: red;
@@ -365,6 +365,20 @@ hr {
 
     body {
         text-align: start;
+    }
+
+    .contactColumn {
+        width: 100%;
+    }
+
+    #contactImage {
+        width: 100%;
+        height: auto;
+    }
+
+    #contactImage img {
+        max-width: 100%;
+        height: unset;
     }
 
     .festivalImage {
