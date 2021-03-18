@@ -371,6 +371,7 @@ hr {
         height: 100%;
         display: none;
         z-index: 1;
+        filter: opacity(0.9);
     }
 
     body {
