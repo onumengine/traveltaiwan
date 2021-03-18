@@ -1,8 +1,11 @@
 window.onload = main;
 
 function main() {
-    var navOpenButton = document.getElementById('menuButton');
+    var navOpenButton = document.getElementById('navButtonMenu');
     navOpenButton.addEventListener('click', openNavDrawer);
+
+    var navCloseButton = document.querySelector('#navButtonClose');
+    navCloseButton.addEventListener('click', closeNavDrawer);
 }
 
 function openNavDrawer() {
