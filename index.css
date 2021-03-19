@@ -372,6 +372,7 @@ hr {
         display: none;
         z-index: 1;
         filter: opacity(0.9);
+        transition: 0.5s;
     }
 
     body {
