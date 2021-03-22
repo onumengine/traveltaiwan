@@ -436,6 +436,10 @@ hr {
         margin: 0;
     }
 
+    #footerActions {
+        padding: 0;
+    }
+
     form {
         margin-bottom: 100px;
     }
