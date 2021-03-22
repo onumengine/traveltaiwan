@@ -90,6 +90,10 @@ button {
     width: 50%;
 }
 
+#contactDiv {
+    padding-bottom: 0;
+}
+
 #contactDiv div {
     margin: 0;
 }
