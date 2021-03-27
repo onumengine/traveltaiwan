@@ -450,6 +450,7 @@ hr {
 
     .formInput {
         height: 100px;
+        font-size: 1em;
     }
 
     #formSubmitButton {
